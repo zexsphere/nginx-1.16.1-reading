@@ -1,0 +1,9 @@
+# ide
+.vscode/
+
+# compile file
+1.16.1/Makefile
+1.16.1/objs/
+
+# other
+TODO
