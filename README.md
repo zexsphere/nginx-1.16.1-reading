@@ -66,5 +66,15 @@ $ /usr/local/nginx/sbin/nginx -c /code/ngx_http_hello_module/nginx.conf
 $ curl -v 'http://localhost/hello'
 ```
 
+## doxygen
+
+Need to install doxygen and graphviz in advance.
+
+```shell
+$ bash gen_doxygen.sh
+# just wait for a few minutes.
+# then open 1.16.1-doc/html/index.html in browser.
+```
+
 ## refer
 - *Nginx完全开发指南 - 使用C、C++、JavaScript和Lua* 罗剑锋著

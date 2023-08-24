@@ -5,5 +5,8 @@
 1.16.1/Makefile
 1.16.1/objs/
 
+# doxygen output
+1.16.1-doc/
+
 # other
 TODO
