@@ -4,6 +4,8 @@ services:
   nginx:
     image: nginx-env:latest
     container_name: nginx
+    security_opt:
+      - seccomp:unconfined  # for using gdb in container
     ports:
       - 80:80
       - 443:443
