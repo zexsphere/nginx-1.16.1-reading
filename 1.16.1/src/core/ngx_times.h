@@ -14,9 +14,9 @@
 
 
 typedef struct {
-    time_t      sec;
-    ngx_uint_t  msec;
-    ngx_int_t   gmtoff;
+    time_t      sec;      /* epoch time 秒数 即时间戳 */
+    ngx_uint_t  msec;     /* 毫秒数 */
+    ngx_int_t   gmtoff;   /* gmt时区偏移量 以分钟为单位 GMT+8 = 480*/
 } ngx_time_t;
 
 

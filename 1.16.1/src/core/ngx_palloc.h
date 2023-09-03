@@ -55,13 +55,13 @@ typedef struct {
 
 
 struct ngx_pool_s {
-    ngx_pool_data_t       d;
+    ngx_pool_data_t       d;         /* 内存块信息 */
     size_t                max;
     ngx_pool_t           *current;
-    ngx_chain_t          *chain;
+    ngx_chain_t          *chain;     /* 空间缓冲区列表 */
     ngx_pool_large_t     *large;
     ngx_pool_cleanup_t   *cleanup;
-    ngx_log_t            *log;
+    ngx_log_t            *log;       /* 日志对象 */
 };
 
 
